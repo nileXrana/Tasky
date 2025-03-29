@@ -71,7 +71,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="mx-3 md:container md:mx-auto my-3 rounded-xl p-5 bg-violet-100 min-h-[90vh] md:w-[50%] relative">
+      <div className="mx-3 md:container md:mx-auto my-3 rounded-xl p-5 bg-violet-100 min-h-[90vh] shadow-blue-700 shadow-md md:w-[50%] relative">
         <h1 className='font-bold text-center text-3xl'>Tasky - Manage your Tasks at one place</h1>
         <div className="addTodo my-5 flex flex-col gap-4">
           <h2 className='text-2xl font-bold text-center'>Add a Task</h2>
@@ -99,7 +99,7 @@ function App() {
               </div>
             </div>
           })}
-          <div className='text-center absolute bottom-2 left-[40%]'>
+          <div className='text-center text-violet-800 absolute bottom-2 left-[40%]'>
             <b>@NileshRana</b>
           </div>
         </div>
